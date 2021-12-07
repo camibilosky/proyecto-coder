@@ -39,7 +39,7 @@
                         </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <input class="formcontrol1 me-2" type="search" placeholder="Buscar" aria-label="Buscar">
                     <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
             </div>
@@ -47,27 +47,32 @@
         </nav>
 
     </header>
-
+    
     <main>
         <section class="ContactoGrids"> 
             <img width= "500px" src="../imagenes/origamicontacto.png" alt="Contacto">
             <div class="form">
+                <h2>Tenes alguna duda? Contactanos</h2>
                 <form>
-                    <h2>Tenes alguna duda? Contactanos</h2>
-                    <div>                 
-                        <input type="text" name="nombre" placeholder="Nombre">
-                    </div>             
-                    <div>                 
-                        <input type="text" name="apellido" placeholder="Apellido">
-                    </div>             
-                    <div>
-                        <input type="text" name="telefono" placeholder="Teléfono">
-                    </div>             
-                    <div>
-                        <input type="text" name="email" placeholder="E-mail">
-                    </div> 
-                        <textarea></textarea>           
-                    
+                    <form class="form-floating">
+                        <input type="text" class="form-control"  placeholder="Nombre" value="Nombre">
+                    </form>  
+                <form>
+                    <form class="form-floating">
+                        <input type="text" class="form-control"  placeholder="Apellido" value="Apellido">
+                    </form>  
+                </form>    
+                <form>       
+                    <form class="form-floating">
+                        <input type="text" class="form-control"  placeholder="Mail" value="Mail">
+                    </form> 
+                </form> 
+                <form>   
+                    <form class="form-floating">
+                        <input type="text" class="form-control"  placeholder="Celu" value="Celu">
+                    </form>   
+                </form> 
+                    <textarea></textarea>           
                 </form>
                 <div class="BotonTiendaCentrar"><button class="BotonTienda">Enviar Consulta</button></div>
             </div>
