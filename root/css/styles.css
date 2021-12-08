@@ -66,6 +66,7 @@ footer{
     display: grid;
     justify-content: center;
     align-content: center;
+    border-radius: 5px;
 }
 
 .mapa p{
@@ -241,9 +242,9 @@ form h2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 16px;
-    gap: 10px   ;
+    gap: 10px;
+    
 }
-
 .TituloPlaylist{
     display: flex;
     justify-content: center;

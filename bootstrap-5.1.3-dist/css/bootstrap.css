@@ -101,6 +101,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+
 }
 
 h1, .h1 {
@@ -2243,7 +2244,7 @@ progress {
   -webkit-margin-end: 0.75rem;
   margin-inline-end: 0.75rem;
   color: #212529;
-  background-color: #CB997E
+  background-color: #CB997E;
   pointer-events: none;
   border-color: inherit;
   border-style: solid;
@@ -3283,8 +3284,8 @@ textarea.form-control-lg {
 }
 
 .btn-outline-success {
-  color: #198754;
-  border-color: #198754;
+  color: black;
+  border-color: black;
 }
 .btn-outline-success:hover {
   color: #fff;
@@ -3919,7 +3920,7 @@ textarea.form-control-lg {
   color: #CB997E;
 }
 .nav-link.disabled {
-  color: #6c757d;
+  color: black;
   pointer-events: none;
   cursor: default;
 }
@@ -3945,9 +3946,9 @@ textarea.form-control-lg {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #CB997E;
-  background-color: #CB997E;
-  border-color: #CB997E;
+  color: black;
+  background-color: black;
+  border-color: black;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -4478,7 +4479,7 @@ textarea.form-control-lg {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -4510,12 +4511,13 @@ textarea.form-control-lg {
 }
 
 .card-title {
-  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .card-subtitle {
-  margin-top: -0.25rem;
-  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .card-text:last-child {
@@ -7733,7 +7735,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: black !important;
 }
 
 .text-black-50 {

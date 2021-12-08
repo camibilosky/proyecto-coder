@@ -82,18 +82,23 @@
     <footer>
         
         <div class="FooterDivs"> 
-            <div class="mapa">
-                <p>Seguí el mapa y conocé nuestro local!</p>
-                <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13138.536487958881!2d-58.4228471!3d-34.5881233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccdca9aed219747a!2sOrigamiteca!5e0!3m2!1ses!2sar!4v1635894580631!5m2!1ses!2sar" width="420" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <div class="card">
+                <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13138.536487958881!2d-58.4228471!3d-34.5881233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccdca9aed219747a!2sOrigamiteca!5e0!3m2!1ses!2sar!4v1635894580631!5m2!1ses!2sar" width="430" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="card-body">
+                    <p class="card-text">Querés visitarnos? Seguí el mapa y encontrá nuestra tienda.</p>
+                </div>
             </div>
-        
 
             <div class="divredes">
-                <h3>Seguinos en nuestras redes sociales!</h3>
-                <p>Así podés enterarte todas nuestras novedades!</p>
-                <div class="ImgRedes">
-                    <img width="30" src="../imagenes/facebook.png" alt="facebook">
-                    <img width="30" src="../imagenes/instagram.png" alt="instagram">
+                <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Seguinos en nuestras Redes!</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Así podés enterarte todas nuestras novedades</h6>
+                    <div class="ImgRedes"><a href="#" class="card-link"><img width="30" src="../imagenes/facebook.png" alt="facebook"></a>
+                    <a href="#" class="card-link"><img width="30" src="../imagenes/instagram.png" alt="instagram"></a>
+                </div>
+                </div>
                 </div>
             </div>
 
@@ -101,10 +106,10 @@
                 <div>
                 <h4>Suscribite a nuestro newsletter</h4>
                 </div>
-                <div class="NewsletterTextoBoton">
-                    <input class="NewsletterInput" type="text" name="" id="">
-                    <button class="BotonTienda">Suscribite</button>
-                    </div>
+                <form class="d-flex">
+                    <input class="formcontrol1 me-2" type="search" placeholder="Tu Email" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Suscribite!</button>
+                </form>
             </div>
         </div>
 
