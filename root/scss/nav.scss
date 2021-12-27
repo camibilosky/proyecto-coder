@@ -1,0 +1,28 @@
+$main-color: #CB997E;
+
+nav{
+
+    background-color: $main-color;
+
+    .NavLogo{
+        display: flex;
+        justify-content: flex-start;
+        padding: 20px 0px 16px 16px;
+        width: 120px;
+
+        ul{
+            display: flex;
+            padding: 16px;  
+            justify-content: flex-end;
+            list-style: none;
+        
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        
+    }
+}
+
+

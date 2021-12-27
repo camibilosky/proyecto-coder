@@ -1,0 +1,32 @@
+.ContactoGrids{
+    background-color: $main-color;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    input{
+        width: 92%;
+        height: 100%;
+        color: black;
+        border: none;
+        background: none;
+        border-bottom: 1px solid black;
+    }
+        textarea{
+            width: 92%;
+            height: 150px;
+            margin: 20px;
+            h2{
+                display: flex;
+                justify-content: center;
+                padding-bottom: 20px;
+            }
+        }
+    button{
+        display: flex;
+        justify-content: center;
+    }
+}

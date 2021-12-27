@@ -1,0 +1,61 @@
+footer{
+    background-color: $main-color;
+    display: grid;
+    
+    .FooterDivs{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 16px;
+        gap: 10px;
+
+        .mapa{
+            display: grid;
+            justify-content: center;
+            align-content: center;
+
+            p{
+                padding: 0px 0px 5px 5px;
+                display: grid;
+                justify-content: center;
+            }
+        }
+    }
+
+}
+
+.divredes{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    .ImgRedes{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        gap: 15px;
+
+        
+    }
+}
+
+.newsletter{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    .NewsletterTextoBoton{
+        display: flex;
+        justify-content: center;
+
+        .NewsletterInput{
+            height: 35px;
+
+        }
+    }
+}
+
+.desarrollado{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+}
