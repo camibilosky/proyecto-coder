@@ -18,15 +18,18 @@
         textarea{
             width: 92%;
             height: 150px;
-            margin: 20px;
+            margin: 10px 0px 10px 0px;
             h2{
                 display: flex;
                 justify-content: center;
                 padding-bottom: 20px;
             }
         }
-    button{
-        display: flex;
-        justify-content: center;
-    }
+}
+
+.BotonTiendaCentrar{
+    display: flex;
+    justify-content: center;
+    background-color: $main-color;
+    color: black;
 }

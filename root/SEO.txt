@@ -1,0 +1,9 @@
+Cambios realizados con SEO:
+
+-Agregué la etiqueta meta con las keywords.
+-Agregué la etiqueta meta con la description.
+-Cambié todos los title de cada HTML.
+-Modifique el h4 de "suscribite a nuestro newsletter" (en el footer) por un h5 para que quede al mismo nivel de importancia que "seguinos en nuestras redes"
+-Modifiqué las etiquetas p de las cards de la tienda online por etiquetas h4
+-Modifiqué todos los títulos de los HTML cambié h2 por h1.
+-Modifiqué la etiqueta p (que contenía el titulo de cada video) en la sección "tutoriales" por un h3.

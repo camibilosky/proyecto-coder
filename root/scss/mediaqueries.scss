@@ -1,0 +1,62 @@
+@media (max-width: 1000px){
+    .ContenedorCards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 800px){
+    .ContenedorCards{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1000px){
+    .FooterDivs{
+        grid-template-columns: 1fr 1fr;
+        padding: 16px;
+    }
+}
+
+@media (max-width: 768px){
+    .FooterDivs{
+    grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1000px){
+    .GrillaVideos{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 800px){
+    .GrillaVideos{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1000px){
+    .PlaylistGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 800px){
+    .PlaylistGrid{
+        grid-template-columns: 1fr;
+    }
+    .TituloPlaylist{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1000px){
+    .ContactoGrids img{
+        display: none;
+    }
+
+    .ContactoGrids{
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}

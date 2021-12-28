@@ -75,11 +75,139 @@ footer {
   .ContactoGrids textarea {
     width: 92%;
     height: 150px;
-    margin: 20px; }
+    margin: 10px 0px 10px 0px; }
     .ContactoGrids textarea h2 {
       display: flex;
       justify-content: center;
       padding-bottom: 20px; }
-  .ContactoGrids button {
+
+.BotonTiendaCentrar {
+  display: flex;
+  justify-content: center;
+  background-color: #CB997E;
+  color: black; }
+
+main {
+  background-color: #CB997E; }
+  main .TituloTienda {
+    text-align: center; }
+
+.ContenedorCards {
+  padding-top: 20px;
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  transition: all 500ms ease; }
+  .ContenedorCards .card {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-bottom: 5px;
+    background-color: #CB997E; }
+    .ContenedorCards .card .CardImage {
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+      transition: all 0.5s ease;
+      transition: all 500ms ease; }
+
+.Titulos, .PrecioImagenesTienda {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  font-weight: bold; }
+
+.PrecioImagenesTienda {
+  padding: 5px; }
+
+.CardImage:hover {
+  transform: scale(1.1); }
+
+.TextoImagenesTienda-papeles {
+  color: #ffffff; }
+
+.TextoImagenesTienda-tijeras {
+  color: black; }
+
+.TextoImagenesTienda-papeles2 {
+  color: #ffffff; }
+
+.TextoImagenesTienda-papeles3 {
+  color: #ffffff; }
+
+.TextoImagenesTienda-kit {
+  color: black; }
+
+.TextoImagenesTienda-papeles4 {
+  color: #ffffff; }
+
+.PlaylistGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 16px;
+  gap: 10px; }
+
+.TituloPlaylist {
+  display: flex;
+  justify-content: center;
+  padding: 16px; }
+
+.GrillaVideos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  padding: 16px; }
+
+.TituloVideo {
+  display: grid;
+  justify-content: center;
+  padding: 16px; }
+
+.TituloSectionVideos {
+  display: grid;
+  justify-content: center;
+  padding: 16px; }
+
+@media (max-width: 1000px) {
+  .ContenedorCards {
+    grid-template-columns: 1fr 1fr; } }
+
+@media (max-width: 800px) {
+  .ContenedorCards {
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 1000px) {
+  .FooterDivs {
+    grid-template-columns: 1fr 1fr;
+    padding: 16px; } }
+
+@media (max-width: 768px) {
+  .FooterDivs {
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 1000px) {
+  .GrillaVideos {
+    grid-template-columns: 1fr 1fr; } }
+
+@media (max-width: 800px) {
+  .GrillaVideos {
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 1000px) {
+  .PlaylistGrid {
+    grid-template-columns: 1fr 1fr; } }
+
+@media (max-width: 800px) {
+  .PlaylistGrid {
+    grid-template-columns: 1fr; }
+  .TituloPlaylist {
     display: flex;
-    justify-content: center; }
+    justify-content: center; } }
+
+@media (max-width: 1000px) {
+  .ContactoGrids img {
+    display: none; }
+  .ContactoGrids {
+    grid-template-columns: 1fr;
+    justify-content: center; } }

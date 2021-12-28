@@ -1,0 +1,78 @@
+main{
+    background-color: $main-color;
+
+    .TituloTienda{
+        text-align: center;     
+
+    }
+}
+
+.ContenedorCards{
+    padding-top: 20px;
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    transition: all 500ms ease;
+
+    .card{
+        border-radius: 5px;
+        border: 1px solid black;
+        padding-bottom: 5px;
+        background-color: $main-color;
+
+        .CardImage{
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            transition: all 0.5s ease;
+            transition: all 500ms ease;
+
+        }
+    }
+}   
+
+@mixin size ($display, $justify-content, $padding-top, $font-weight){
+    display: $display;
+    justify-content: $justify-content;
+    padding-top: $padding-top;
+    font-weight: $font-weight;
+}
+
+.Titulos{
+    @include size(flex, center, 10px, bold);
+}
+
+
+.PrecioImagenesTienda{
+    @extend .Titulos;
+    padding: 5px;
+}
+
+
+.CardImage:hover{
+    transform:scale(1.1);
+
+}
+
+$titulos: (
+    papeles: #ffffff,
+    tijeras: black,
+    papeles2: #ffffff,
+    papeles3: #ffffff,
+    kit: black,
+    papeles4: #ffffff,
+); 
+
+@each $TextoImagenesTienda, $color in $titulos{
+    .TextoImagenesTienda-#{$TextoImagenesTienda}{
+        color: $color;
+    }
+}
+
+
+
+
+
+
