@@ -1,0 +1,33 @@
+.GrillaProducto{
+    background-color: $main-color;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .ImagenProducto img{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        padding: 16px;
+    }
+
+    .TextoProducto{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 16px;
+
+        .breadcrumb-item a{
+            color: #653d3d;
+            text-decoration: none;
+        }
+
+        .form-select{
+            width:175px;
+            margin-bottom: 16px;
+        }
+    }
+
+    p{
+        size: 50px;
+    }
+}

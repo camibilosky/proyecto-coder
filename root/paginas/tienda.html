@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
     <link rel="shortcut icon" href="../imagenes/logo.png">
+
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="../../bootstrap-5.1.3-dist/css/bootstrap.css">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/pruebacss.css">
+
+    <!-- SEO -->
     <meta name=keywords content="Origami, Tutoriales de origami, Productos de origami, Tienda online, Plegar origami, Playlist origami, técnicas de origami, Papeles de origami, tijeras de origami">
     <meta name="description" content="Origami Deco es el sitio web donde vas a encontrar todos los productos necesarios para comenzar en el mundo del origami.">
     <title>Origami Deco - Tienda online</title>
@@ -28,7 +44,7 @@
                         <a class="nav-link active" aria-current="page" href="./tutoriales.html">Tutoriales</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="./playlist.html">Playlist</a>
+                        <a class="nav-link" href="./historia.html">Historia del origami</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./tienda.html">Tienda</a>
@@ -39,82 +55,64 @@
                             </li>
                     </ul>
                     <form class="d-flex">
+                        <button class="btn btn-outline-success" type="submit"><i class="fas fa-cart-plus"></i></button>
                         <input class="formcontrol1 me-2" type="search" placeholder="Buscar" aria-label="Buscar">
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
                 </div>
                 </div>
             </nav>
-
     </header>
-
     <main>
         <h1 class="TituloTienda">Bienvenidx a nuestra tienda online!</h1>
             <h3 class="TituloTienda">Todos los productos que necesitas para comenzar en el mundo del origami los encontrás acá!</h3>
-
         <section class="ContenedorCards">
             <div class="card"> 
                 <div class="CardImage" style="background-image: url('../imagenes/papeles.jpg')"></div>
                 <h4 class=" Titulos TextoImagenesTienda-papeles">Papeles lisos</h4>
                 <h4 class="PrecioImagenesTienda">$450</h4>
-                <div class="BotonTiendaCentrar"><button class="btn btn-outline-success" type="submit">Ver Producto</button></div>
+                <div class="BotonTiendaCentrar"><button class="btn btn-outline-success" type="submit"><a class="productos" href="producto.html">Ver Producto</a></button></div>
             </div>
-            
             <div class="card">
                 <div class="CardImage" style="background-image: url('../imagenes/tijera.jpg')"></div>
                 <h4 class=" Titulos TextoImagenesTienda-tijeras">Tijera para origami</h4>
                 <h4 class="PrecioImagenesTienda">$380</h4>
                 <div class="BotonTiendaCentrar"><button class="btn btn-outline-success" type="submit">Ver Producto</button></div>
             </div>
-            
-            
             <div class="card">
                 <div class="CardImage" style="background-image: url(../imagenes/lespapeles.jpg)"></div>
                 <h4 class=" Titulos TextoImagenesTienda-papeles2">Papeles con estampados geométricos</h4>
                 <h4 class="PrecioImagenesTienda">$500</h4>
                 <div class="BotonTiendaCentrar"><button class="btn btn-outline-success" type="submit">Ver Producto</button></div>
             </div>
-            
-            
             <div class="card">
                 <div class="CardImage" style="background-image: url('../imagenes/papeles2.jpg')"></div>
                 <h4 class=" Titulos TextoImagenesTienda-papeles3">Papeles con estampados florales</h4>
                 <h4 class="PrecioImagenesTienda">$500</h4>
                 <div class="BotonTiendaCentrar"><button class="btn btn-outline-success" type="submit">Ver Producto</button></div>
             </div>
-            
-            
             <div class="card">
                 <div class="CardImage" style="background-image: url('../imagenes/kitorigami.jpg')"></div>
                 <h4 class=" Titulos TextoImagenesTienda-kit">Kit de origami</h4>
                 <h4 class="PrecioImagenesTienda">$1800</h4>
                 <div class="BotonTiendaCentrar"><button class="btn btn-outline-success" type="submit">Ver Producto</button></div>
             </div>
-            
-            
             <div class="card" >
                 <div class="CardImage" style="background-image: url('../imagenes/papelesbrillantes.jpg')"></div>
                 <h4 class=" Titulos TextoImagenesTienda-papeles4">Papeles brillantes</h4>
                 <h4 class="PrecioImagenesTienda">$520</h4>
                 <div class="BotonTiendaCentrar"><button class="btn btn-outline-success" type="submit">Ver Producto</button></div>
             </div>
-            
-            
-            
         </section>
     </main>
-
     <footer>
-        
         <div class="FooterDivs"> 
-
-            <div class="card">
+            <div class="mapa">
                 <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13138.536487958881!2d-58.4228471!3d-34.5881233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccdca9aed219747a!2sOrigamiteca!5e0!3m2!1ses!2sar!4v1635894580631!5m2!1ses!2sar" width="430" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 <div class="card-body">
                     <p class="card-text">Querés visitarnos? Seguí el mapa y encontrá nuestra tienda.</p>
                 </div>
             </div>
-
             <div class="divredes">
                 <div class="card">
                 <div class="card-body">
@@ -126,7 +124,6 @@
                 </div>
                 </div>
             </div>
-
             <div class="newsletter">
                 <div>
                 <h5>Suscribite a nuestro newsletter</h5>
@@ -139,10 +136,14 @@
         </div>
 
         <div class="desarrollado">
-        Sitio desarrollado por Cami
+        Sitio desarrollado por Camila Bilosky
         </div>
-
     </footer>
+
+    <!-- Bootstrap -->
     <script src="../../bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+
+    <!-- Iconos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>
 </html>

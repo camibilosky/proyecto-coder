@@ -1,8 +1,13 @@
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
 @import "nav";
 @import "footer";
 @import "contacto";
 @import "maintienda.scss";
-@import "mainplaylist.scss";
+@import "producto.scss";
+@import "mainhistoria.scss";
 @import "maintutoriales.scss";
 @import "mediaqueries.scss";
 

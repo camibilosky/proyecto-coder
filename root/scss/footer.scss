@@ -1,6 +1,18 @@
 footer{
     background-color: $main-color;
     display: grid;
+
+    p{
+        color: #653d3d;
+    }
+
+    h5{
+        color: #653d3d;;
+    }
+
+    h6{
+        color: #653d3d;
+    }
     
     .FooterDivs{
         display: grid;
@@ -12,15 +24,9 @@ footer{
             display: grid;
             justify-content: center;
             align-content: center;
-
-            p{
-                padding: 0px 0px 5px 5px;
-                display: grid;
-                justify-content: center;
-            }
+            margin-top: 32px;
         }
     }
-
 }
 
 .divredes{
@@ -57,5 +63,5 @@ footer{
 .desarrollado{
     display: flex;
     justify-content: center;
-    padding-bottom: 16px;
+    padding: 16px;
 }

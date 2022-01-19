@@ -1,62 +1,138 @@
-@media (max-width: 1000px){
+// media queries tienda.html
+
+@media (max-width: 1200px){
     .ContenedorCards{
         grid-template-columns: 1fr 1fr;
-    }
-}
-@media (max-width: 800px){
-    .ContenedorCards{
-        grid-template-columns: 1fr;
+        margin: 16px 16px 0px 16px;
     }
 }
 
-@media (max-width: 1000px){
-    .FooterDivs{
-        grid-template-columns: 1fr 1fr;
-        padding: 16px;
+@media (max-width: 800px){
+    .ContenedorCards{
+        grid-template-columns: 1fr;
+        margin: 16px 16px 0px 16px;
+    }
+}
+
+// media queries producto.html
+
+@media (max-width: 1200px){
+    .GrillaProducto{
+        grid-template-columns: 1fr;
+
+        .ImagenProducto img{
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 16px;
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .GrillaProducto{
+        grid-template-columns: 1fr;
+
+        .ImagenProducto img{
+            height: 400px;
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 16px;
+        }
     }
 }
 
 @media (max-width: 768px){
-    .FooterDivs{
-    grid-template-columns: 1fr;
+    .GrillaProducto{
+        grid-template-columns: 1fr;
+
+        .ImagenProducto img{
+            height: 250px;
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 16px;
+        }
     }
 }
 
-@media (max-width: 1000px){
-    .GrillaVideos{
+// media queries tutoriales.html
+
+@media (max-width: 1350px){
+    main .GrillaVideos{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (max-width: 800px){
-    .GrillaVideos{
+    main .GrillaVideos{
         grid-template-columns: 1fr;
     }
 }
 
-@media (max-width: 1000px){
-    .PlaylistGrid{
-        grid-template-columns: 1fr 1fr;
+// media queries historia.html
+
+@media (max-width: 1200px){
+    .HistoriaOrigami1 .Origami1{
+        display: none;
+    }
+
+    .HistoriaOrigami2{
+        margin-right: 55px;
     }
 }
 
 @media (max-width: 800px){
-    .PlaylistGrid{
-        grid-template-columns: 1fr;
+    .HistoriaOrigami1 .Origami1{
+        display: none;
     }
-    .TituloPlaylist{
+    
+    .HistoriaOrigami1 .Origami2{
+        display: none;
+    }
+    .TituloHistoria{
         display: flex;
         justify-content: center;
     }
+
+    .HistoriaOrigami2{
+        margin-right: 55px;
+    }
 }
 
-@media (max-width: 1000px){
+// mediaqueries contacto.html
+
+@media (max-width: 1200px){
     .ContactoGrids img{
         display: none;
     }
 
     .ContactoGrids{
         grid-template-columns: 1fr;
+        padding: 16px;
         justify-content: center;
+    
+    .form{
+        margin: 20px;
+        padding: 20px;
+    }
+    }
+}
+
+// media queries footer
+
+@media (max-width: 1200px){
+    footer .FooterDivs{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 1000px){
+    footer .FooterDivs{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px){
+    footer .FooterDivs{
+    grid-template-columns: 1fr;
     }
 }

@@ -1,13 +1,23 @@
 main{
     background-color: $main-color;
+    
 
     .TituloTienda{
         text-align: center;     
 
     }
+
+    h4{
+        color: #653d3d;
+    }
+
+    h3{
+        color:#653d3d;
+    }
 }
 
 .ContenedorCards{
+    background-color: $main-color;
     padding-top: 20px;
     display: grid;
     max-width: 1200px;
@@ -18,9 +28,18 @@ main{
 
     .card{
         border-radius: 5px;
-        border: 1px solid black;
+        border: 1px solid #653d3d;
         padding-bottom: 5px;
         background-color: $main-color;
+
+        a{
+            text-decoration: none;
+            color: #653d3d;
+        }
+
+        a:hover{
+            color: #ffffff;
+        }
 
         .CardImage{
             height: 200px;
@@ -32,6 +51,7 @@ main{
         }
     }
 }   
+
 
 @mixin size ($display, $justify-content, $padding-top, $font-weight){
     display: $display;
@@ -57,12 +77,12 @@ main{
 }
 
 $titulos: (
-    papeles: #ffffff,
+    papeles: #653d3d,
     tijeras: black,
-    papeles2: #ffffff,
-    papeles3: #ffffff,
+    papeles2: #653d3d,
+    papeles3: #653d3d,
     kit: black,
-    papeles4: #ffffff,
+    papeles4: #653d3d,
 ); 
 
 @each $TextoImagenesTienda, $color in $titulos{

@@ -1,8 +1,12 @@
-$main-color: #CB997E;
+$main-color: #eeead8;
 
 nav{
 
     background-color: $main-color;
+
+    .d-flex .btn .btn-outline-success{
+        padding-right: 16px;
+    }
 
     .NavLogo{
         display: flex;
@@ -18,7 +22,7 @@ nav{
         
             a{
                 text-decoration: none;
-                color: black;
+                color: #653d3d;
             }
         }
         
