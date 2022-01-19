@@ -20,8 +20,7 @@ nav {
         color: #653d3d; }
 
 footer {
-  background-color: #eeead8;
-  display: grid; }
+  background-color: #eeead8; }
   footer p {
     color: #653d3d; }
   footer h5 {
@@ -36,11 +35,11 @@ footer {
       display: grid;
       text-align: center;
       align-content: center; }
-    footer .FooterDivs .ubicacion {
-      display: grid;
-      justify-content: center;
-      width: 350px;
-      height: 250px; }
+      footer .FooterDivs .mapa .ubicacion {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto; }
 
 .divredes {
   display: grid;

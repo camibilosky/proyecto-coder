@@ -1,6 +1,5 @@
 footer{
     background-color: $main-color;
-    display: grid;
 
     p{
         color: #653d3d;
@@ -23,14 +22,14 @@ footer{
             display: grid;
             text-align: center;
             align-content: center;
-        }
 
             .ubicacion{
-                display: grid;
-                justify-content: center;
-                width: 350px;
-                height: 250px;
+                width:100%;
+                align-items: center;
+                text-align: center;
+                margin: 0 auto;
             }
+        }
     }
 }
 
