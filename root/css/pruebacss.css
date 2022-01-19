@@ -38,6 +38,10 @@ footer {
       justify-content: center;
       align-content: center;
       margin-top: 32px; }
+    footer .FooterDivs .ubicacion {
+      width: 350px;
+      height: 250px;
+      padding-left: 32px; }
 
 .divredes {
   display: grid;
