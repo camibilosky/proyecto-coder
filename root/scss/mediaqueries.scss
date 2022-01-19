@@ -136,3 +136,9 @@
     grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 300px){
+    .NewsletterInput{
+        height: 28px;
+    }
+}

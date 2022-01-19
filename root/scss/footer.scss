@@ -17,26 +17,26 @@ footer{
     .FooterDivs{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        padding: 16px;
         gap: 10px;
 
         .mapa{
             display: grid;
             text-align: center;
             align-content: center;
-            margin: 32px;
         }
 
             .ubicacion{
+                display: grid;
+                justify-content: center;
                 width: 350px;
                 height: 250px;
-                padding-left: 32px;
             }
     }
 }
 
 .divredes{
     display: grid;
+    text-align: center;
     justify-content: center;
     align-content: center;
 
@@ -52,17 +52,12 @@ footer{
 
 .newsletter{
     display: grid;
+    text-align: center;
     justify-content: center;
     align-content: center;
 
-    .NewsletterTextoBoton{
-        display: flex;
-        justify-content: center;
-
         .NewsletterInput{
-            height: 35px;
-
-        }
+            height: 38px;
     }
 }
 

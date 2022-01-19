@@ -31,20 +31,20 @@ footer {
   footer .FooterDivs {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 16px;
     gap: 10px; }
     footer .FooterDivs .mapa {
       display: grid;
       text-align: center;
-      align-content: center;
-      margin: 32px; }
+      align-content: center; }
     footer .FooterDivs .ubicacion {
+      display: grid;
+      justify-content: center;
       width: 350px;
-      height: 250px;
-      padding-left: 32px; }
+      height: 250px; }
 
 .divredes {
   display: grid;
+  text-align: center;
   justify-content: center;
   align-content: center; }
   .divredes .ImgRedes {
@@ -55,13 +55,11 @@ footer {
 
 .newsletter {
   display: grid;
+  text-align: center;
   justify-content: center;
   align-content: center; }
-  .newsletter .NewsletterTextoBoton {
-    display: flex;
-    justify-content: center; }
-    .newsletter .NewsletterTextoBoton .NewsletterInput {
-      height: 35px; }
+  .newsletter .NewsletterInput {
+    height: 38px; }
 
 .desarrollado {
   display: flex;
@@ -228,10 +226,12 @@ main {
 .GrillaVideos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 5px; }
-  .GrillaVideos div iframe {
-    padding: 16px;
-    justify-content: center; }
+  gap: 5px;
+  padding: 16px; }
+  .GrillaVideos .video {
+    display: grid;
+    justify-content: center;
+    padding: 16px; }
 
 .TituloVideo {
   display: grid;
@@ -327,3 +327,7 @@ main {
 @media (max-width: 768px) {
   footer .FooterDivs {
     grid-template-columns: 1fr; } }
+
+@media (max-width: 300px) {
+  .NewsletterInput {
+    height: 28px; } }
