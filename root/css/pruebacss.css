@@ -35,9 +35,9 @@ footer {
     gap: 10px; }
     footer .FooterDivs .mapa {
       display: grid;
-      justify-content: center;
+      text-align: center;
       align-content: center;
-      margin-top: 32px; }
+      margin: 32px; }
     footer .FooterDivs .ubicacion {
       width: 350px;
       height: 250px;
