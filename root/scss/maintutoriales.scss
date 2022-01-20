@@ -3,12 +3,12 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
 
     .video{
-        display: grid;
-        justify-content: center;
         width: auto;
         margin: 0 auto;
+        text-align: center;
     }
 
 }

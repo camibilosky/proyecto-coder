@@ -17,6 +17,7 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
+        margin: 0 auto;
 
         .mapa{
             display: grid;
@@ -28,6 +29,7 @@ footer{
                 align-items: center;
                 text-align: center;
                 margin: 0 auto;
+                margin-top: 32px;
             }
         }
     }
@@ -38,6 +40,7 @@ footer{
     text-align: center;
     justify-content: center;
     align-content: center;
+    margin: 0 auto;
 
     .ImgRedes{
         display: flex;
